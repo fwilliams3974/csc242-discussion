@@ -11,6 +11,7 @@ int main()
     setiosflags(ios_base::fixed);
 	const double PI = 3.142;
 	double radius;
+	double circumferenceOfCircle;
 	cout << "Enter radius" << endl;
 	cin >> radius;
 	//Add code to read user input and store in variable radius
@@ -19,5 +20,10 @@ int main()
 	double area ;
 	area = PI * pow(radius, 2);
 	cout << setprecision(3) <<area;
+
+	circumferenceOfCircle = 2 * PI * radius;
+
+	cout << "The circumference of a circle is: " << circumferenceOfCircle << endl;
+
 	return 0;
 }
