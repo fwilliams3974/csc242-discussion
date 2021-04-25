@@ -5,6 +5,7 @@ using namespace std;
 
 //This program prompts user to enter circle raduis
 //Then the circle area is displayed
+//Added circumference of circle
 
 int main()
 {
